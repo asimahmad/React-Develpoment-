@@ -13,7 +13,7 @@ import ParentComponent from './Components/ParentComponent'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{ backgroundColor: "DodgerBlue", borderRadius: "100px"}}>
      {/* <Greet name="Bruce" heroName="Batman">
        <p>This is just the children of first greet component.</p>
        <p>This is just the children of first omponent.</p>
