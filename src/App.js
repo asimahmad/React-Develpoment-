@@ -10,25 +10,27 @@ import Counter from './Components/Counter'
 function App() {
   return (
     <div className="App">
-     {/* <Greet name="Bruce" heroName="Batman">
+     <Greet name="Bruce" heroName="Batman">
        <p>This is just the children of first greet component.</p>
        <p>This is just the children of first omponent.</p>
-     </Greet>
+     </Greet> 
      <Greet name="Clark" heroName="Superman">
        <button>Action</button>
      </Greet>
-     <Greet name="Diana" heroName="Wonder woman"></Greet>
+     
 
      <Welcome name="Bruce" heroName="Batman"></Welcome>
+     
+     
      <Welcome name="Clark" heroName="Superman"></Welcome>
      <Welcome name="Diana" heroName="Wonder woman">
        <button>Diana</button>
      </Welcome>
-     <Hello/> */
+     <Hello/>
      
-      // <Message></Message>
-      <Counter></Counter>
-     }
+      <Message></Message>
+     <Counter></Counter>
+     
     </div>
   );
 }
