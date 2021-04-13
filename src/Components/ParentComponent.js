@@ -22,4 +22,5 @@ class ParentComponent extends Component {
     }
 }
 
+
 export default ParentComponent
