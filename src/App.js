@@ -5,6 +5,7 @@ import Greet from './Components/Greet' // with default export
 import Welcome from './Components/Welcome'
 import Hello from './Components/Hello'
 import Message from './Components/Message'
+import Counter from './Components/Counter'
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
      </Welcome>
      <Hello/> */
      
-      <Message></Message>
+      // <Message></Message>
+      <Counter></Counter>
      }
     </div>
   );
