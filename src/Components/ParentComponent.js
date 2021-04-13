@@ -12,7 +12,6 @@ class ParentComponent extends Component {
     greetParent(childName){
         alert(`Hello ${this.state.parentName} from ${childName}`)
     }
-
     render() {
         return (
             <div>
@@ -21,5 +20,4 @@ class ParentComponent extends Component {
         )
     }
 }
-
 export default ParentComponent
