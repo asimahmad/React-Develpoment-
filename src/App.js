@@ -4,11 +4,12 @@ import './App.css';
 import Greet from './Components/Greet' // with default export
 import Welcome from './Components/Welcome'
 import Hello from './Components/Hello'
+import Message from './Components/Message'
 
 function App() {
   return (
     <div className="App">
-     <Greet name="Bruce" heroName="Batman">
+     {/* <Greet name="Bruce" heroName="Batman">
        <p>This is just the children of first greet component.</p>
        <p>This is just the children of first omponent.</p>
      </Greet>
@@ -22,7 +23,10 @@ function App() {
      <Welcome name="Diana" heroName="Wonder woman">
        <button>Diana</button>
      </Welcome>
-     <Hello/>
+     <Hello/> */
+     
+      <Message></Message>
+     }
     </div>
   );
 }
