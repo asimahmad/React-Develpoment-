@@ -1,3 +1,4 @@
+import { object } from 'prop-types'
 import React, { Component } from 'react'
 
 class Counter extends Component {
@@ -16,7 +17,7 @@ class Counter extends Component {
         // console.log(this.state.count)
 
 
-        this.setState(prevState => ({
+        this.setState((prevState, props) => ({
             count: prevState.count +1
         }))
         console.log(this.state.count)
@@ -43,3 +44,11 @@ class Counter extends Component {
 }
 
 export default Counter
+
+// Always make use of setState and never modify the state directly.
+
+// Code has to be executed after the state has been updated? Place that code in the call back function which is the second
+// argument to the setState method.
+
+// When you have to update the state based on the pevious state value, pass in a function as an argument instead of
+// the regular object.
