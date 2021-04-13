@@ -6,11 +6,13 @@ import Welcome from './Components/Welcome'
 import Hello from './Components/Hello'
 import Message from './Components/Message'
 import Counter from './Components/Counter'
+import Click from './Components/FunctionClick'
+import ClassClick from './Components/ClassClick'
 
 function App() {
   return (
     <div className="App">
-     <Greet name="Bruce" heroName="Batman">
+     {/* <Greet name="Bruce" heroName="Batman">
        <p>This is just the children of first greet component.</p>
        <p>This is just the children of first omponent.</p>
      </Greet> 
@@ -29,7 +31,9 @@ function App() {
      <Hello/>
      
       <Message></Message>
-     <Counter></Counter>
+     <Counter></Counter> */}
+      <Click></Click>
+      <ClassClick></ClassClick>
      
     </div>
   );
