@@ -10,7 +10,7 @@ import Click from './Components/FunctionClick'
 import ClassClick from './Components/ClassClick'
 import EventBind from './Components/EventBind'
 import ParentComponent from './Components/ParentComponent'
-
+import UserGreeting from './Components/UserGreeting'
 function App() {
   return (
     <div className="App" style={{ backgroundColor: "DodgerBlue", borderRadius: "100px"}}>
@@ -33,11 +33,13 @@ function App() {
      <Hello/>
      
       <Message></Message>
-     <Counter></Counter> */}
+     <Counter></Counter> 
       <Click></Click>
       <ClassClick></ClassClick>
       <EventBind></EventBind>
       <ParentComponent></ParentComponent>
+      */}
+      <UserGreeting></UserGreeting>
      
     </div>
   );
